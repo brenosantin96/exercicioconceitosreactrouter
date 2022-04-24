@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.headerTitle {
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    padding: 10px;
+}
+
+.footerMain {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemContentHome {
+    border: 2px solid black;
+    transition: all ease .4s;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    padding: 5px;
+    margin: 8px 0px;
+}
+
+.linkAlbums {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.itemContentHome:hover {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.contentHome {
+    margin: 5px;
+}
+
+.titleAlbum {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.containerPhotosAlbum {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 2 px;
+    grid-row-gap: 2px;
+}
+
+.boxImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    transition: all ease .4s;
+}
+
+.boxImg:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+
+.imgPhotoAlbum {
+    height: 150px;
+    width: 150px;
+}
+
+.boxPhotoBig {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.titlePhotoBig {
+    margin: 0px 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.buttonBack {
+    margin: 15px 15px;
+    font-size: 20px;
+}
